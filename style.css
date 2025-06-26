@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    background-color: black;
+    top: 0;
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 70px;
+    padding: 13px;
+}
+nav img{
+    width: 140px;
+    position: relative;
+    z-index: 10;
+} 
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.text{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    height: 100%;
+    display: flex;
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    text-align: center;
+    
+}
+.first{
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.2;
+}
+.third{
+    font-weight: 500;
+    font-size: 20px;
+    height: normal;
+    text-align: center;
+}
+.fourth{
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    text-align: center;
+}
+.pos-gap{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.seperate{
+    position: relative;
+    background-color: rgb(245, 18, 18);
+    height: 6px;
+    z-index: 2;
+    margin-top: -96px;
+}
+.gap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.btn-1st{
+  background-color: rgb(24 23 23 / 71%);
+  padding: 8px 22px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0.3px solid white;
+  font-size: medium;
+  cursor: pointer;
+
+}
+.btn-red{
+  background-color: red;
+  padding: 10px 14px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+
+}
+.int{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn-2nd{
+  background-color: rgb(23 23 23 / 71%);
+  padding: 16px 135px 15px 16px;
+  color: white;
+  font-weight:700;
+  border-radius: 5px;
+  border: 0.3px solid white;
+  font-size: medium;
+  cursor: text;
+}
+.btn-red-2{
+  background-color: red;
+  padding: 14px 33px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+}
+
+/* @media (max-width: 430px) {
+  .first {
+    font-weight: 700; 
+    font-size: 2rem;
+  }
+  nav img{
+    width: 88.8px;
+  }
+  .text{
+    height: 58%;
+  }
+  .main{
+    background-position: top;
+  }
+  .int{
+    gap: 26px;;
+  }
+} */
